@@ -8,56 +8,56 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 
 ## Contents
 
-- [AI & LLM](#ai-llm) (137)
-  - [LLM Apps & Interfaces](#llm-apps-interfaces) (49)
-  - [Agents & Orchestration](#agents-orchestration) (43)
+- [AI & LLM](#ai-llm) (136)
+  - [LLM Apps & Interfaces](#llm-apps-interfaces) (43)
+  - [Agents & Orchestration](#agents-orchestration) (44)
   - [RAG & Vector Search](#rag-vector-search) (24)
-  - [MCP & Tool Use](#mcp-tool-use) (3)
+  - [MCP & Tool Use](#mcp-tool-use) (7)
   - [ML & Training](#ml-training) (15)
   - [Image Generation](#image-generation) (3)
-- [Web Frontend](#web-frontend) (239)
-  - [React & UI Libraries](#react-ui-libraries) (44)
+- [Web Frontend](#web-frontend) (202)
+  - [React & UI Libraries](#react-ui-libraries) (47)
   - [Next.js](#nextjs) (9)
   - [Svelte](#svelte) (16)
-  - [Vue](#vue) (2)
-  - [JS Libraries & Utilities](#js-libraries-utilities) (121)
+  - [Vue](#vue) (1)
+  - [JS Libraries & Utilities](#js-libraries-utilities) (89)
   - [Animation & Canvas](#animation-canvas) (13)
   - [UI Components & Styling](#ui-components-styling) (7)
   - [Maps & Geo](#maps-geo) (4)
   - [Data Visualization & Charts](#data-visualization-charts) (2)
-  - [Real-Time & Collaboration](#real-time-collaboration) (3)
-  - [DOM & Browser APIs](#dom-browser-apis) (2)
-  - [General Frontend](#general-frontend) (16)
-- [Mobile](#mobile) (72)
-  - [React Native & Expo](#react-native-expo) (65)
+  - [Real-Time & Collaboration](#real-time-collaboration) (4)
+  - [DOM & Browser APIs](#dom-browser-apis) (3)
+  - [General Frontend](#general-frontend) (7)
+- [Mobile](#mobile) (81)
+  - [React Native & Expo](#react-native-expo) (74)
   - [iOS](#ios) (5)
   - [Android](#android) (1)
   - [Cross-Platform](#cross-platform) (1)
-- [Backend & Infrastructure](#backend-infrastructure) (43)
-  - [Databases & ORM](#databases-orm) (16)
-  - [General Backend](#general-backend) (13)
-  - [APIs & Protocols](#apis-protocols) (1)
-  - [Auth & Security](#auth-security) (3)
-  - [DevOps & Deployment](#devops-deployment) (4)
-  - [Self-Hosted & Homelab](#self-hosted-homelab) (2)
+- [Backend & Infrastructure](#backend-infrastructure) (48)
+  - [Databases & ORM](#databases-orm) (17)
+  - [General Backend](#general-backend) (11)
+  - [APIs & Protocols](#apis-protocols) (4)
+  - [Auth & Security](#auth-security) (4)
+  - [DevOps & Deployment](#devops-deployment) (5)
+  - [Self-Hosted & Homelab](#self-hosted-homelab) (3)
   - [Bots & Messaging](#bots-messaging) (3)
   - [Email & Messaging](#email-messaging) (1)
-- [Game Development](#game-development) (89)
+- [Game Development](#game-development) (92)
   - [Godot](#godot) (57)
-  - [General Game Dev](#general-game-dev) (21)
-  - [Procedural Generation](#procedural-generation) (6)
+  - [General Game Dev](#general-game-dev) (22)
+  - [Procedural Generation](#procedural-generation) (8)
   - [Graphics & Shaders](#graphics-shaders) (4)
   - [Cloud & Streaming Gaming](#cloud-streaming-gaming) (1)
-- [Developer Tools](#developer-tools) (58)
-  - [Editors & Plugins](#editors-plugins) (10)
-  - [Python Tools](#python-tools) (30)
+- [Developer Tools](#developer-tools) (72)
+  - [Editors & Plugins](#editors-plugins) (11)
+  - [Python Tools](#python-tools) (29)
   - [CLI & Terminal](#cli-terminal) (4)
-  - [Linting & Formatting](#linting-formatting) (3)
-  - [Build Tools & Bundlers](#build-tools-bundlers) (2)
-  - [Testing & Debugging](#testing-debugging) (3)
-  - [Desktop App Frameworks](#desktop-app-frameworks) (2)
-  - [Document Processing](#document-processing) (1)
-  - [General Dev Tools](#general-dev-tools) (3)
+  - [Linting & Formatting](#linting-formatting) (5)
+  - [Build Tools & Bundlers](#build-tools-bundlers) (4)
+  - [Testing & Debugging](#testing-debugging) (8)
+  - [Desktop App Frameworks](#desktop-app-frameworks) (3)
+  - [Document Processing](#document-processing) (2)
+  - [General Dev Tools](#general-dev-tools) (6)
 - [Systems & Low-Level](#systems-low-level) (35)
   - [Rust](#rust) (5)
   - [C / C++ & Systems](#c-c-systems) (29)
@@ -65,13 +65,14 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [Data & Analytics](#data-analytics) (11)
   - [Analytics & Feature Flags](#analytics-feature-flags) (5)
   - [Data Science & Visualization](#data-science-visualization) (6)
-- [Knowledge Management](#knowledge-management) (2)
-  - [Notes & Diagrams](#notes-diagrams) (2)
-- [Productivity & Apps](#productivity-apps) (2)
-  - [Personal & Business Apps](#personal-business-apps) (2)
-- [Miscellaneous](#miscellaneous) (4)
-  - [Curated Lists & Resources](#curated-lists-resources) (1)
-  - [Audio & Music](#audio-music) (1)
+- [Knowledge Management](#knowledge-management) (3)
+  - [Notes & Diagrams](#notes-diagrams) (3)
+- [Productivity & Apps](#productivity-apps) (3)
+  - [Personal & Business Apps](#personal-business-apps) (3)
+- [Miscellaneous](#miscellaneous) (9)
+  - [Curated Lists & Resources](#curated-lists-resources) (2)
+  - [Audio & Music](#audio-music) (3)
+  - [Media & Streaming](#media-streaming) (2)
   - [Other](#other) (2)
 
 ---
@@ -94,7 +95,6 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) — Anthropic's official hands-on prompt engineering tutorial — the canonical place to learn how to talk to Claude
 - [gpt-pilot](https://github.com/Pythagora-io/gpt-pilot) — ⚠️ STALE — AI developer that writes full apps iteratively — one of the earlier serious attempts at autonomous coding
 - [tabby](https://github.com/TabbyML/tabby) — Self-hosted AI coding assistant you can run on your own GPU — GitHub Copilot but yours
-- [frigate](https://github.com/blakeblackshear/frigate) — Local NVR with real-time object detection for IP cameras — no cloud, no subscription, just your hardware
 - [storm](https://github.com/stanford-oval/storm) — ⚠️ STALE — Researches any topic from scratch and writes a full Wikipedia-style report with citations — remarkably good
 - [onlook](https://github.com/onlook-dev/onlook) — Visual design tool that directly edits your React codebase — like Figma but your components stay real
 - [langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability platform — tracing, evals, prompt management, and a playground in one place
@@ -106,26 +106,21 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [puck](https://github.com/puckeditor/puck) — Self-hostable visual page builder built on React — bring your own components, own your data
 - [meetily](https://github.com/Zackriya-Solutions/meetily) — Privacy-first meeting assistant with fast local Whisper transcription, diarization, and Ollama summaries
 - [inbox-zero](https://github.com/elie222/inbox-zero) — AI email assistant that actually reaches inbox zero — open-source, self-hostable, integrates with Gmail
-- [react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) — The definitive high-performance camera library for React Native — Frame Processors make it truly powerful
-- [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) — The classic Node.js Telegram Bot API wrapper — simple, battle-tested, still widely used
 - [open-infra-index](https://github.com/deepseek-ai/open-infra-index) — ⚠️ STALE — DeepSeek's production AI infrastructure stack released open-source — the real backbone behind their models
 - [kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai) — Natural language interface for Kubernetes — describe what you want, get kubectl commands back
 - [vibe](https://github.com/thewh1teagle/vibe) — Local Whisper-based transcription desktop app — drag in audio, get clean text, no cloud needed
 - [poml](https://github.com/microsoft/poml) — Prompt Orchestration Markup Language — Microsoft's structured format for complex multi-step LLM workflows
 - [ARC-AGI](https://github.com/fchollet/ARC-AGI) — ⚠️ STALE — The benchmark that humbles AI — visual pattern puzzles humans solve instantly that still trip up frontier models
-- [ChatUI](https://github.com/alibaba/ChatUI) — ⚠️ STALE — React component library purpose-built for conversational UI — clean design language from Alibaba
 - [mlx-lm](https://github.com/ml-explore/mlx-lm) — Run LLMs on Apple Silicon with MLX — the native Apple way to do local inference, fast
 - [flyde](https://github.com/flydelabs/flyde) — ⚠️ STALE — Visual node-based programming that actually integrates with existing TypeScript codebases — not a toy
 - [mini-omni2](https://github.com/gpt-omni/mini-omni2) — ⚠️ STALE — Open-source GPT-4o-style model with vision, speech, and duplex capabilities — ambitious multimodal experiment
 - [contextgem](https://github.com/shcherbak-ai/contextgem) — Effortless structured LLM extraction from documents — schema-driven, with minimal boilerplate
-- [ai](https://github.com/callstackincubator/ai) — On-device LLM execution for React Native with Vercel AI SDK compatibility — LLMs in your pocket literally
 - [ChatGPT-System-Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts) — ⚠️ STALE — Curated collection of effective system prompts for ChatGPT — useful starting points for role/persona design
 - [nobodywho](https://github.com/nobodywho-ooo/nobodywho) — Inference engine designed to run LLMs locally on any device, including within game engines
 - [simplexity-ai-app](https://github.com/inulute/simplexity-ai-app) — Community-built Electron desktop app for Perplexity-style AI search — open-source AI browsing
 - [nano-aha-moment](https://github.com/McGill-NLP/nano-aha-moment) — ⚠️ STALE — Minimal single-file RL fine-tuning for LLMs — reproduces the "aha moment" effect from DeepSeek-R1
 - [openllmetry-js](https://github.com/traceloop/openllmetry-js) — OpenTelemetry-based LLM observability for TypeScript — trace your AI calls just like regular infra
 - [langfuse-python](https://github.com/langfuse/langfuse-python) — Langfuse Python SDK — decorator-based or low-level tracing for any LLM app
-- [codex.nvim](https://github.com/johnseth97/codex.nvim) — ⚠️ STALE — OpenAI Codex integration for Neovim — AI completion right in your editor without leaving the terminal
 - [gpt4-spanish](https://github.com/jbrukh/gpt4-spanish) — ⚠️ STALE — A GPT-4 prompt system for Spanish language learning — simple, effective language practice via AI
 - [langfuse-js](https://github.com/langfuse/langfuse-js) — Langfuse JS/TS SDK — instrument your LLM app and get detailed tracing in any JavaScript framework
 - [qa-kgraph](https://github.com/drskennedy/qa-kgraph) — ⚠️ STALE — Queries private documents using LlamaIndex knowledge graphs and a local LLM — local RAG with graph structure
@@ -175,6 +170,7 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [gateway](https://github.com/adaline/gateway) — Local production-grade LLM gateway with a unified interface across all major providers — no vendor lock-in
 - [awesome-copilot-agents](https://github.com/Code-and-Sorts/awesome-copilot-agents) — Curated Copilot instructions, prompt files, and agent configs — community-maintained best practices
 - [PocketFlow-Typescript](https://github.com/The-Pocket/PocketFlow-Typescript) — ⚠️ STALE — TypeScript port of PocketFlow — minimalist LLM framework that lets agents build agents
+- [Riona-AI-Agent](https://github.com/David-patrick-chuks/Riona-AI-Agent) — Lightweight TypeScript AI agent for social media automation — built for scheduled job execution
 
 ### RAG & Vector Search
 
@@ -207,6 +203,10 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 
 - [n8n](https://github.com/n8n-io/n8n) — Fair-code workflow automation with native AI capabilities — self-hosted Zapier that you actually own
 - [repomix](https://github.com/yamadashy/repomix) — Packs an entire repo into a single AI-friendly file — essential for feeding codebases to LLMs
+- [servers](https://github.com/modelcontextprotocol/servers) — The official MCP server implementations — reference servers for filesystem, web search, databases, and more
+- [typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) — Official TypeScript SDK for building MCP servers and clients — the standard way to implement MCP in TS
+- [inspector](https://github.com/modelcontextprotocol/inspector) — Visual testing tool for MCP servers — inspect, test, and debug your MCP implementations interactively
+- [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) — Unofficial Home Assistant MCP server — control your smart home through any MCP-compatible AI agent
 - [mcp-ui](https://github.com/MCP-UI-Org/mcp-ui) — Brings real UI rendering to MCP — lets AI tools return interactive components, not just text
 
 ### ML & Training
@@ -283,6 +283,9 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [workflow-kit](https://github.com/inngest/workflow-kit) — Zapier-like workflow UI you can embed in your product — define actions in your backend, users wire them visually
 - [react-calendar](https://github.com/zackify/react-calendar) — ⚠️ STALE — Simple, flexible events calendar component for React — clean and straightforward
 - [react-resizable-layout](https://github.com/RyoSogawa/react-resizable-layout) — ⚠️ STALE — Headless React component and hook for resizable layouts — minimal, composable, no styling opinions
+- [ChatUI](https://github.com/alibaba/ChatUI) — ⚠️ STALE — React component library purpose-built for conversational UI — clean design language from Alibaba
+- [react-theme-provider](https://github.com/callstack/react-theme-provider) — ⚠️ STALE — Set of utilities for building React theming systems — create consistent theming in a few steps
+- [react-event-calendar](https://github.com/dptoot/react-event-calendar) — ⚠️ STALE — React calendar component for displaying events — simple, clean, focused on event display
 
 ### Next.js
 
@@ -318,7 +321,6 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 ### Vue
 
 - [marktext](https://github.com/marktext/marktext) — Simple, elegant cross-platform Markdown editor — clean UI, distraction-free writing, built with Vue
-- [prettier](https://github.com/prettier/prettier) — The opinionated code formatter — stops all arguments about style by making the decision for you
 
 ### JS Libraries & Utilities
 
@@ -363,6 +365,17 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [umd](https://github.com/umdjs/umd) — ⚠️ STALE — Universal Module Definition patterns — the compatibility wrapper that made JS modules work everywhere before ES modules
 - [metrics-graphics](https://github.com/metricsgraphics/metrics-graphics) — ⚠️ STALE — D3-based library for clean, principled data graphics — opinionated simplicity for time-series and scatter plots
 - [sjcl](https://github.com/bitwiseshiftleft/sjcl) — Stanford JavaScript Crypto Library — serious cryptographic primitives for the browser, now deprecated
+- [log.js](https://github.com/tj/log.js) — ⚠️ STALE — Super light-weight Node.js logging with streaming log reader — TJ minimalism applied to logging
+- [jquery-aim](https://github.com/cihadturhan/jquery-aim) — ⚠️ STALE — jQuery plugin that predicts which element the user's cursor is heading toward — smart hover optimization
+- [typograf](https://github.com/typograf/typograf) — JavaScript typography tool for Russian text — correct punctuation, quotes, and whitespace automatically
+- [trycatch](https://github.com/CrabDude/trycatch) — ⚠️ STALE — Async domain-based exception handler with long stack traces for Node.js — caught errors with useful context
+- [jog](https://github.com/tj/jog) — ⚠️ STALE — JSON document logging and filtering for Node.js — structured logging with querying capabilities
+- [Pilot](https://github.com/RubaXa/Pilot) — ⚠️ STALE — Multifunction JavaScript router — a pre-React Router era routing library with interesting design
+- [linq-in-javascript](https://github.com/aaronpowell/linq-in-javascript) — ⚠️ STALE — LINQ implementation in JavaScript with ES6 iterators — proper lazy evaluation for query-style operations
+- [bem-mvc](https://github.com/bem/bem-mvc) — ⚠️ STALE — Yet another MVC for i-bem — an experiment in applying MVC patterns to BEM methodology
+- [jquery.deserialize](https://github.com/maxatwork/jquery.deserialize) — ⚠️ STALE — Max's jQuery plugin for populating form fields from a URL-encoded string — the inverse of serialize()
+- [superoverload](https://github.com/verkholantsev/superoverload) — ⚠️ STALE — Function overloading for JavaScript — dispatch to different implementations based on argument types
+- [jsLibs](https://github.com/maxatwork/jsLibs) — Max's personal JavaScript libraries collection — an early personal open-source archive
 - [nanostores](https://github.com/nanostores/nanostores) — 286-byte state manager for React, Vue, Svelte — atomic stores that're actually tiny
 - [casperjs](https://github.com/casperjs/casperjs) — 🪦 ARCHIVED — PhantomJS-based browser automation and testing — fully archived, the predecessor to headless Chrome automation
 - [mapcn](https://github.com/AnmolSaini16/mapcn) — Beautiful, zero-config React map components — one command to get interactive maps on your page
@@ -444,30 +457,23 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [yjs](https://github.com/yjs/yjs) — The CRDT library for real-time collaborative apps — peer-to-peer shared data types that merge without conflicts
 - [teable](https://github.com/teableio/teable) — No-code Airtable alternative backed by Postgres — spreadsheet UI, relational power, no vendor lock-in
 - [RealtimeSTT](https://github.com/KoljaB/RealtimeSTT) — Low-latency speech-to-text with voice activity detection and wake word support — the best local real-time STT
+- [pushpin](https://github.com/automerge/pushpin) — ⚠️ STALE — Collaborative corkboard app — a real-world demo of Automerge CRDTs in a visual collaboration tool
 
 ### DOM & Browser APIs
 
 - [history.js](https://github.com/browserstate/history.js) — ⚠️ STALE — Graceful HTML5 History/State API support for all browsers — the polyfill that made pushState viable
 - [snapdom](https://github.com/zumerlab/snapdom) — Next-generation DOM capture engine — fast, modular DOM-to-image conversion
+- [Xccessors](https://github.com/eligrey/Xccessors) — ⚠️ STALE — Cross-browser accessor shim implementing standard and legacy property definition methods — browser compatibility JS
 
 ### General Frontend
 
-- [json-server](https://github.com/typicode/json-server) — Full fake REST API in under 30 seconds from a JSON file — the instant mock backend for prototyping
-- [koodo-reader](https://github.com/koodo-reader/koodo-reader) — Modern ebook manager and reader with cross-platform sync — the best open-source reading app
-- [whatsapp-web.js](https://github.com/wwebjs/whatsapp-web.js) — WhatsApp client library for Node.js via the web interface — the unofficial WhatsApp API
-- [Riona-AI-Agent](https://github.com/David-patrick-chuks/Riona-AI-Agent) — Lightweight TypeScript AI agent for social media automation — built for scheduled job execution
 - [this-is-responsive](https://github.com/bradfrost/this-is-responsive) — ⚠️ STALE — Brad Frost's classic responsive web design pattern library — a historical landmark for mobile-first thinking
 - [Bebas-Neue](https://github.com/dharmatype/Bebas-Neue) — ⚠️ STALE — Bebas Neue font — the bold, condensed typeface behind countless impactful web headlines
-- [lmd](https://github.com/azproduction/lmd) — ⚠️ STALE — JavaScript module assembler for better web apps — a pre-webpack module bundler, now deprecated
-- [log.js](https://github.com/tj/log.js) — ⚠️ STALE — Super light-weight Node.js logging with streaming log reader — TJ minimalism applied to logging
 - [the-modal](https://github.com/samdark/the-modal) — ⚠️ STALE — Proper modal boxes — a focused, correct implementation of accessibility-conscious modal dialogs
 - [cascadeframework](https://github.com/jslegers/cascadeframework) — ⚠️ STALE — CSS framework experiment from the early responsive era — historically interesting design choices
-- [node-html-markdown](https://github.com/crosstype/node-html-markdown) — ⚠️ STALE — Fast HTML-to-Markdown converter for Node.js — works in the browser too, handles edge cases well
-- [webspecter](https://github.com/jgonera/webspecter) — 🪦 ARCHIVED — BDD-style acceptance test framework for PhantomJS — precursor to modern headless browser testing
-- [docco-husky](https://github.com/mbrevoort/docco-husky) — ⚠️ STALE — Fork of docco for generating documentation for whole projects — whole-project literate programming docs
-- [worldgen](https://github.com/baturinsky/worldgen) — ⚠️ STALE — Fast, fairly realistic terrain generator in JavaScript — useful for procedural world building in the browser
-- [nxtensions](https://github.com/nxtensions/nxtensions) — ⚠️ STALE — Nx plugins and extensions expanding the monorepo toolkit beyond the official offerings
-- [docco-husky](https://github.com/maxatwork/docco-husky) — ⚠️ STALE — Max's fork of docco-husky — for generating whole-project documentation in the literate programming style
+- [jsdicom](https://github.com/Infogosoft/jsdicom) — ⚠️ STALE — DICOM medical image library and viewer in JavaScript — view medical imaging data in the browser
+- [reader](https://github.com/chitalka/reader) — ⚠️ STALE — Reader UI component — minimal, focused reading interface
+- [fixer](https://github.com/maxatwork/fixer) — ⚠️ STALE — Max's sticky headers library — makes table headers and other elements stick while scrolling
 
 ---
 
@@ -482,6 +488,7 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [rxdb](https://github.com/pubkey/rxdb) — Reactive offline-first database for JavaScript — real-time queries that work in browser, Node, and React Native
 - [openreplay](https://github.com/openreplay/openreplay) — Self-hosted session replay and product analytics — watch exactly what users did, no third-party required
 - [svgr](https://github.com/gregberge/svgr) — Transforms SVGs into React components — the tool behind every icon library's React package
+- [react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) — The definitive high-performance camera library for React Native — Frame Processors make it truly powerful
 - [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated) — Software Mansion's Reanimated — the 60fps animation library that makes React Native feel native
 - [react-native-image-picker](https://github.com/react-native-image-picker/react-native-image-picker) — Native media picker for React Native — camera, gallery, video with native UI on both platforms
 - [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler) — Declarative gesture system for React Native — the right way to handle swipes, pinches, and complex touches
@@ -496,6 +503,7 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [react-native-hold-menu](https://github.com/enesozturk/react-native-hold-menu) — ⚠️ STALE — Hold-to-open context menu for React Native powered by Reanimated — the iOS long-press menu pattern
 - [react-native-masonry](https://github.com/brh55/react-native-masonry) — ⚠️ STALE — Masonry layout for images in React Native — Pinterest-style grid with dynamic content support
 - [react-native-executorch](https://github.com/software-mansion/react-native-executorch) — Run AI models on-device in React Native via ExecuTorch — declarative API for local ML inference
+- [ai](https://github.com/callstackincubator/ai) — On-device LLM execution for React Native with Vercel AI SDK compatibility — LLMs in your pocket literally
 - [react-native-animated-nav-tab-bar](https://github.com/torgeadelin/react-native-animated-nav-tab-bar) — ⚠️ STALE — Animated bottom tab bar with custom animation support — smooth, customizable navigation component
 - [expo-monorepo-example](https://github.com/byCedric/expo-monorepo-example) — ⚠️ STALE — Fast pnpm monorepo template for cross-platform Expo and React Native apps — the reference monorepo setup
 - [react-native-sticky-item](https://github.com/gorhom/react-native-sticky-item) — ⚠️ STALE — Interactive sticky item inspired by Facebook Stories — a complex, beautiful scroll interaction
@@ -541,48 +549,12 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [frames-react-native](https://github.com/checkout/frames-react-native) — Checkout.com payment frames for React Native — secure card input components for Checkout integration
 - [react-native-stt](https://github.com/kihyunwon/react-native-stt) — ⚠️ STALE — Speech-to-text module for React Native — native STT on both iOS and Android
 - [react-native-image-header-scroll-view](https://github.com/bamlab/react-native-image-header-scroll-view) — ⚠️ STALE — ScrollView where the image header shrinks into a navigation bar on scroll — the hero-image scroll pattern
-- [jquery-aim](https://github.com/cihadturhan/jquery-aim) — ⚠️ STALE — jQuery plugin that predicts which element the user's cursor is heading toward — smart hover optimization
-- [pushpin](https://github.com/automerge/pushpin) — ⚠️ STALE — Collaborative corkboard app — a real-world demo of Automerge CRDTs in a visual collaboration tool
-- [typograf](https://github.com/typograf/typograf) — JavaScript typography tool for Russian text — correct punctuation, quotes, and whitespace automatically
-- [express-cdn](https://github.com/ladjs/express-cdn) — 🪦 ARCHIVED — Express module for delivering optimized, gzipped assets via Amazon S3/CloudFront CDN
-- [grunt-criticalcss](https://github.com/filamentgroup/grunt-criticalcss) — 🪦 ARCHIVED — Grunt wrapper for extracting critical CSS — automated above-the-fold CSS extraction, now archived
-- [react-theme-provider](https://github.com/callstack/react-theme-provider) — ⚠️ STALE — Set of utilities for building React theming systems — create consistent theming in a few steps
-- [chiptune2.js](https://github.com/deskjet/chiptune2.js) — ⚠️ STALE — JavaScript chiptune player using Web Audio API — play MOD, XM, S3M files in the browser
 - [react-native-menu](https://github.com/jaysoo/react-native-menu) — ⚠️ STALE — Flexible dropdown menu component for React Native — Android Spinner-like menus on both platforms
-- [bem-tools](https://github.com/bem-archive/bem-tools) — 🪦 ARCHIVED — BEM methodology toolkit for working with files and structure — archived, but foundational to BEM tooling
-- [js-must](https://github.com/moll/js-must) — ⚠️ STALE — Assertion library for JavaScript with a fluent BDD syntax — expressive, comprehensive, and ships many matchers
 - [expo-widgets](https://github.com/mike-stewart-dev/expo-widgets) — ⚠️ STALE — Widget functionality for Expo apps — brings home screen widgets to React Native via Expo
-- [express-expose](https://github.com/expressjs/express-expose) — 🪦 ARCHIVED — Expose raw JS objects and functions from Express to the client side — now archived
 - [expo-mdx](https://github.com/EvanBacon/expo-mdx) — Render MDX universally across Expo platforms — write once in MDX, render on web, iOS, and Android
-- [fractal_cell_noise](https://github.com/lorenSchmidt/fractal_cell_noise) — ⚠️ STALE — Fractal noise algorithm related to Worley/cellular noise — useful for procedural textures and terrain
-- [trycatch](https://github.com/CrabDude/trycatch) — ⚠️ STALE — Async domain-based exception handler with long stack traces for Node.js — caught errors with useful context
-- [react-event-calendar](https://github.com/dptoot/react-event-calendar) — ⚠️ STALE — React calendar component for displaying events — simple, clean, focused on event display
-- [jog](https://github.com/tj/jog) — ⚠️ STALE — JSON document logging and filtering for Node.js — structured logging with querying capabilities
-- [next-electron-rsc](https://github.com/kirill-konshin/next-electron-rsc) — ⚠️ STALE — Next.js running inside Electron with React Server Components — desktop apps with the full Next.js stack
 - [react-native-ui](https://github.com/vishalpwr/react-native-ui) — ⚠️ STALE — Basic React Native UI components collection — a simple component starter
-- [cypher-query-builder](https://github.com/jamesfer/cypher-query-builder) — ⚠️ STALE — Flexible, intuitive Cypher query builder for Neo4j — write graph queries in JS instead of raw strings
-- [Pilot](https://github.com/RubaXa/Pilot) — ⚠️ STALE — Multifunction JavaScript router — a pre-React Router era routing library with interesting design
-- [jsdicom](https://github.com/Infogosoft/jsdicom) — ⚠️ STALE — DICOM medical image library and viewer in JavaScript — view medical imaging data in the browser
-- [node-modbus-stack](https://github.com/TooTallNate/node-modbus-stack) — ⚠️ STALE — Modbus protocol StreamStack implementation for Node.js — industrial equipment communication in JS
 - [UpdatesAPIDemo](https://github.com/expo/UpdatesAPIDemo) — Demo app for the Expo useUpdates() API — reference for OTA update management in Expo apps
-- [reader](https://github.com/chitalka/reader) — ⚠️ STALE — Reader UI component — minimal, focused reading interface
-- [linq-in-javascript](https://github.com/aaronpowell/linq-in-javascript) — ⚠️ STALE — LINQ implementation in JavaScript with ES6 iterators — proper lazy evaluation for query-style operations
-- [mocha-cloud](https://github.com/tj/mocha-cloud) — ⚠️ STALE — Mocha test runner in the cloud via SauceLabs — cross-browser testing from the command line
-- [connect-bruteforce](https://github.com/revington/connect-bruteforce) — ⚠️ STALE — Connect middleware to prevent brute force attacks — rate limiting for login endpoints
-- [express-configuration](https://github.com/tj/express-configuration) — ⚠️ STALE — Adds async configuration support to Express — configure your app asynchronously before routes run
-- [nodejs-redis](https://github.com/simplegeo/nodejs-redis) — ⚠️ STALE — Early Redis client for Node.js — precursor to the modern ioredis/node-redis era
-- [Xccessors](https://github.com/eligrey/Xccessors) — ⚠️ STALE — Cross-browser accessor shim implementing standard and legacy property definition methods — browser compatibility JS
-- [bem-mvc](https://github.com/bem/bem-mvc) — ⚠️ STALE — Yet another MVC for i-bem — an experiment in applying MVC patterns to BEM methodology
 - [react-native-context-menu](https://github.com/brnho/react-native-context-menu) — ⚠️ STALE — Context menu component for React Native — long-press activated menu with action items
-- [mocha-cloud-grid-view](https://github.com/tj/mocha-cloud-grid-view) — ⚠️ STALE — Terminal browser grid view for mocha cloud cross-browser testing results
-- [jquery.deserialize](https://github.com/maxatwork/jquery.deserialize) — ⚠️ STALE — Max's jQuery plugin for populating form fields from a URL-encoded string — the inverse of serialize()
-- [jog-middleware](https://github.com/tj/jog-middleware) — ⚠️ STALE — JSON logger middleware for Connect/Express — structured request logging built on jog
-- [upnpjs](https://github.com/swimauger/upnpjs) — ⚠️ STALE — Node.js package for using UPnP — discover and communicate with UPnP devices on the local network
-- [superoverload](https://github.com/verkholantsev/superoverload) — ⚠️ STALE — Function overloading for JavaScript — dispatch to different implementations based on argument types
-- [bem-gen-doc](https://github.com/bem-archive/bem-gen-doc) — ⚠️ STALE — Block library documentation generator prototype — early BEM tooling experiment, archived
-- [fixer](https://github.com/maxatwork/fixer) — ⚠️ STALE — Max's sticky headers library — makes table headers and other elements stick while scrolling
-- [globals](https://github.com/mightyaleksey/globals) — ⚠️ STALE — Global identifier definitions from different JavaScript environments — for linting and static analysis
-- [jsLibs](https://github.com/maxatwork/jsLibs) — Max's personal JavaScript libraries collection — an early personal open-source archive
 
 ### iOS
 
@@ -617,37 +589,40 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [better-sqlite3](https://github.com/WiseLibs/better-sqlite3) — The fastest, simplest SQLite3 library for Node.js — synchronous API that actually makes sense for SQLite
 - [unqlite](https://github.com/symisc/unqlite) — ⚠️ STALE — Embedded NoSQL transactional database engine — key-value and document store in a single C library
 - [usertour](https://github.com/usertour/usertour) — Open-source user onboarding platform — in-app product tours, checklists, and surveys
-- [whatsapp-api](https://github.com/chrishubert/whatsapp-api) — 🪦 ARCHIVED — REST API wrapper for whatsapp-web.js — turn the unofficial WhatsApp client into a proper REST API
 - [ladybug](https://github.com/LadybugDB/ladybug) — Graph database — LadybugDB brings graph data modeling with a lightweight embedded approach
 - [bighorn](https://github.com/Kineviz/bighorn) — ⚠️ STALE — Embedded property graph database with vector search and Cypher — a graph DB that handles similarity search too
 - [ydb-js-sdk](https://github.com/ydb-platform/ydb-js-sdk) — YDB JavaScript/TypeScript SDK — access Yandex's distributed NewSQL database from Node.js
 - [kuzo_ios](https://github.com/johnbenac/kuzo_ios) — ⚠️ STALE — Kuzu graph database integration for iOS — run an embedded graph database natively on iPhone
+- [cypher-query-builder](https://github.com/jamesfer/cypher-query-builder) — ⚠️ STALE — Flexible, intuitive Cypher query builder for Neo4j — write graph queries in JS instead of raw strings
+- [nodejs-redis](https://github.com/simplegeo/nodejs-redis) — ⚠️ STALE — Early Redis client for Node.js — precursor to the modern ioredis/node-redis era
 
 ### General Backend
 
-- [servers](https://github.com/modelcontextprotocol/servers) — The official MCP server implementations — reference servers for filesystem, web search, databases, and more
 - [rclone](https://github.com/rclone/rclone) — rsync for cloud storage — sync files to and from 70+ storage providers from the command line
 - [serverless](https://github.com/serverless/serverless) — Serverless Framework — build and deploy functions to AWS Lambda, Azure, GCP, and more with one CLI
 - [copyparty](https://github.com/9001/copyparty) — Portable file server with resumable uploads, WebDAV, SFTP, media indexing — one file, everything
-- [typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) — Official TypeScript SDK for building MCP servers and clients — the standard way to implement MCP in TS
 - [git-bug](https://github.com/git-bug/git-bug) — Distributed, offline-first bug tracker embedded in git — issues that live in your repository
-- [inspector](https://github.com/modelcontextprotocol/inspector) — Visual testing tool for MCP servers — inspect, test, and debug your MCP implementations interactively
-- [ggwave](https://github.com/ggerganov/ggwave) — Tiny data-over-sound library — transmit data through audio waves, works between any devices with mic and speaker
-- [markdown-oxide](https://github.com/Feel-ix-343/markdown-oxide) — PKM Markdown Language Server — LSP server that brings Obsidian-style linking to any editor
-- [ha-mcp](https://github.com/homeassistant-ai/ha-mcp) — Unofficial Home Assistant MCP server — control your smart home through any MCP-compatible AI agent
 - [tinypool](https://github.com/tinylibs/tinypool) — Minimal Node.js Worker Thread Pool — lightweight task parallelism without the overhead
 - [OWS](https://github.com/Dartanlla/OWS) — Open World Server — networking infrastructure for building large-scale multiplayer game backends
 - [grpc-ui](https://github.com/lazada/grpc-ui) — ⚠️ STALE — gRPC web interface — a Postman-style UI for testing gRPC endpoints
+- [json-server](https://github.com/typicode/json-server) — Full fake REST API in under 30 seconds from a JSON file — the instant mock backend for prototyping
+- [express-expose](https://github.com/expressjs/express-expose) — 🪦 ARCHIVED — Expose raw JS objects and functions from Express to the client side — now archived
+- [express-configuration](https://github.com/tj/express-configuration) — ⚠️ STALE — Adds async configuration support to Express — configure your app asynchronously before routes run
+- [jog-middleware](https://github.com/tj/jog-middleware) — ⚠️ STALE — JSON logger middleware for Connect/Express — structured request logging built on jog
 
 ### APIs & Protocols
 
 - [waha](https://github.com/devlikeapro/waha) — WhatsApp HTTP API — REST API for WhatsApp with multiple engine options, configurable in one click
+- [whatsapp-api](https://github.com/chrishubert/whatsapp-api) — 🪦 ARCHIVED — REST API wrapper for whatsapp-web.js — turn the unofficial WhatsApp client into a proper REST API
+- [node-modbus-stack](https://github.com/TooTallNate/node-modbus-stack) — ⚠️ STALE — Modbus protocol StreamStack implementation for Node.js — industrial equipment communication in JS
+- [upnpjs](https://github.com/swimauger/upnpjs) — ⚠️ STALE — Node.js package for using UPnP — discover and communicate with UPnP devices on the local network
 
 ### Auth & Security
 
 - [better-auth](https://github.com/better-auth/better-auth) — The most comprehensive authentication framework for TypeScript — everything from OAuth to 2FA in one library
 - [trufflehog](https://github.com/trufflesecurity/trufflehog) — Find, verify, and analyze leaked credentials in code and git history — catches what regular secrets scanners miss
 - [passport](https://github.com/jaredhanson/passport) — ⚠️ STALE — Simple, unobtrusive authentication middleware for Node.js — 500+ strategies, the authentication standard
+- [connect-bruteforce](https://github.com/revington/connect-bruteforce) — ⚠️ STALE — Connect middleware to prevent brute force attacks — rate limiting for login endpoints
 
 ### DevOps & Deployment
 
@@ -655,17 +630,19 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [Compose-Examples](https://github.com/Haxxnet/Compose-Examples) — Extensive Docker Compose examples for self-hosted FOSS and proprietary projects — the reference collection
 - [headlamp](https://github.com/kubernetes-sigs/headlamp) — Fully-featured, user-friendly, extensible Kubernetes web UI — the dashboard that Kubernetes itself should have shipped
 - [airo](https://github.com/albersola/airo) — Deploy projects from local to production VPS — simplified deployment pipeline for small-scale hosting
+- [express-cdn](https://github.com/ladjs/express-cdn) — 🪦 ARCHIVED — Express module for delivering optimized, gzipped assets via Amazon S3/CloudFront CDN
 
 ### Self-Hosted & Homelab
 
 - [automatisch](https://github.com/automatisch/automatisch) — Open-source Zapier alternative — build workflow automations without the cost or vendor lock-in
 - [BillionMail](https://github.com/Billionmail/BillionMail) — Self-hosted open-source mail server and newsletter platform — own your email marketing infrastructure
+- [frigate](https://github.com/blakeblackshear/frigate) — Local NVR with real-time object detection for IP cameras — no cloud, no subscription, just your hardware
 
 ### Bots & Messaging
 
-- [Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) — ⚠️ STALE — 100+ open-source clones of Airbnb, Netflix, Spotify, WhatsApp, and others — learn by reading real implementations
 - [Baileys](https://github.com/WhiskeySockets/Baileys) — TypeScript/JavaScript socket-based API for WhatsApp Web — the most capable unofficial WhatsApp client library
-- [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) — Undetected Playwright fork — automation that passes bot detection for research and testing purposes
+- [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) — The classic Node.js Telegram Bot API wrapper — simple, battle-tested, still widely used
+- [whatsapp-web.js](https://github.com/wwebjs/whatsapp-web.js) — WhatsApp client library for Node.js via the web interface — the unofficial WhatsApp API
 
 ### Email & Messaging
 
@@ -758,6 +735,7 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [Advanced-Camera-Manager](https://github.com/oivio/Advanced-Camera-Manager) — 🪦 ARCHIVED — Advanced player camera component for Unreal Engine — cinematic control with spring arm intelligence
 - [Voxel](https://github.com/Phyronnaz/Voxel) — ⚠️ STALE — Voxel world plugin for UE4 — terrain and world generation in the pre-VoxelPlugin era
 - [space-ship-panel-set](https://github.com/adamskee/space-ship-panel-set) — ⚠️ STALE — Low-poly spaceship panel meshes for UE4 in FBX format — ready-to-use sci-fi greeble assets
+- [HeartGraph](https://github.com/Drakynfly/HeartGraph) — ⚠️ STALE — Generic runtime node graph editor and viewer for Unreal Engine — visual scripting infrastructure
 
 ### Procedural Generation
 
@@ -767,6 +745,8 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [TownGeneratorOS](https://github.com/watabou/TownGeneratorOS) — ⚠️ STALE — Source code for the Medieval Fantasy City Generator — the web app that created countless game towns
 - [FantasyMapGenerator](https://github.com/rlguy/FantasyMapGenerator) — ⚠️ STALE — Fantasy map generator based on Martin O'Leary's river and coast algorithm — realistic-looking fictional worlds
 - [PCGExtendedToolkit](https://github.com/PCGEx/PCGExtendedToolkit) — The missing pieces for Unreal's PCG system — graph theory, pathfinding, spatial ops, and asset management
+- [worldgen](https://github.com/baturinsky/worldgen) — ⚠️ STALE — Fast, fairly realistic terrain generator in JavaScript — useful for procedural world building in the browser
+- [fractal_cell_noise](https://github.com/lorenSchmidt/fractal_cell_noise) — ⚠️ STALE — Fractal noise algorithm related to Worley/cellular noise — useful for procedural textures and terrain
 
 ### Graphics & Shaders
 
@@ -795,6 +775,7 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [semver](https://github.com/jscutlery/semver) — Nx plugin for semantic versioning and CHANGELOG generation — automated releases in a monorepo
 - [dotfiles](https://github.com/mokevnin/dotfiles) — A developer's public dotfiles with Vim focus — good reference for a Vim-centric terminal setup
 - [DockToRight](https://github.com/mauricelam/DockToRight) — 🪦 ARCHIVED — Chrome DevTools theme for dock-to-right usage — optimized layout for the panel on the side
+- [codex.nvim](https://github.com/johnseth97/codex.nvim) — ⚠️ STALE — OpenAI Codex integration for Neovim — AI completion right in your editor without leaving the terminal
 
 ### Python Tools
 
@@ -806,7 +787,6 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [VibeVoice](https://github.com/microsoft/VibeVoice) — Microsoft's open-source frontier voice AI system — speech understanding and generation
 - [flux](https://github.com/black-forest-labs/flux) — ⚠️ STALE — Official inference repo for FLUX.1 image generation models — the current state-of-the-art in open image gen
 - [chatterbox](https://github.com/resemble-ai/chatterbox) — State-of-the-art open-source TTS from Resemble AI — ultra-realistic voice synthesis, free to run
-- [IPTV](https://github.com/Free-TV/IPTV) — M3U playlist of free, legal TV channels — stream television worldwide without a subscription
 - [Second-Me](https://github.com/mindverse/Second-Me) — ⚠️ STALE — Train an AI version of yourself — captures your writing and thinking style to act as a personal AI proxy
 - [git-filter-repo](https://github.com/newren/git-filter-repo) — Fast git history rewriting — the modern replacement for filter-branch that doesn't make you wait forever
 - [timesfm](https://github.com/google-research/timesfm) — Google's pre-trained time series foundation model — zero-shot forecasting on any temporal data
@@ -841,32 +821,46 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 - [spectral](https://github.com/stoplightio/spectral) — Flexible JSON/YAML linter with built-in OpenAPI support — enforce API design standards automatically
 - [PoorMansTSqlFormatter](https://github.com/TaoK/PoorMansTSqlFormatter) — ⚠️ STALE — Free .Net and JS library for formatting T-SQL — works as a CLI, SSMS plugin, or Notepad++ plugin
 - [eslint-plugin](https://github.com/lingui/eslint-plugin) — ESLint rules for LinguiJS projects — catch i18n mistakes and missing translations at lint time
+- [prettier](https://github.com/prettier/prettier) — The opinionated code formatter — stops all arguments about style by making the decision for you
+- [globals](https://github.com/mightyaleksey/globals) — ⚠️ STALE — Global identifier definitions from different JavaScript environments — for linting and static analysis
 
 ### Build Tools & Bundlers
 
 - [microbundle](https://github.com/developit/microbundle) — Zero-config bundler for tiny npm modules — the simplest way to publish a library with CJS and ESM outputs
 - [enb](https://github.com/enb/enb) — ⚠️ STALE — Build tool and BEM bundler for web projects — the build system that powered large-scale BEM applications
+- [lmd](https://github.com/azproduction/lmd) — ⚠️ STALE — JavaScript module assembler for better web apps — a pre-webpack module bundler, now deprecated
+- [grunt-criticalcss](https://github.com/filamentgroup/grunt-criticalcss) — 🪦 ARCHIVED — Grunt wrapper for extracting critical CSS — automated above-the-fold CSS extraction, now archived
 
 ### Testing & Debugging
 
 - [browser](https://github.com/lightpanda-io/browser) — Lightpanda — headless browser designed for AI agents and automation, with minimal resource usage
 - [node-inspector](https://github.com/node-inspector/node-inspector) — ⚠️ STALE — Node.js debugger using Blink DevTools — the precursor to modern node --inspect, now archived
 - [lost-pixel](https://github.com/lost-pixel/lost-pixel) — Open-source visual regression testing — catch UI regressions without a Percy or Chromatic subscription
+- [webspecter](https://github.com/jgonera/webspecter) — 🪦 ARCHIVED — BDD-style acceptance test framework for PhantomJS — precursor to modern headless browser testing
+- [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) — Undetected Playwright fork — automation that passes bot detection for research and testing purposes
+- [js-must](https://github.com/moll/js-must) — ⚠️ STALE — Assertion library for JavaScript with a fluent BDD syntax — expressive, comprehensive, and ships many matchers
+- [mocha-cloud](https://github.com/tj/mocha-cloud) — ⚠️ STALE — Mocha test runner in the cloud via SauceLabs — cross-browser testing from the command line
+- [mocha-cloud-grid-view](https://github.com/tj/mocha-cloud-grid-view) — ⚠️ STALE — Terminal browser grid view for mocha cloud cross-browser testing results
 
 ### Desktop App Frameworks
 
 - [awesome-tauri](https://github.com/tauri-apps/awesome-tauri) — Curated list of Tauri apps, plugins, and resources — the community guide to the Tauri ecosystem
 - [TauRPC](https://github.com/MatsDK/TauRPC) — Typesafe IPC layer for Tauri applications — end-to-end type safety between your Rust backend and TS frontend
+- [next-electron-rsc](https://github.com/kirill-konshin/next-electron-rsc) — ⚠️ STALE — Next.js running inside Electron with React Server Components — desktop apps with the full Next.js stack
 
 ### Document Processing
 
 - [liteparse](https://github.com/run-llama/liteparse) — Fast, open-source document parser from LlamaIndex — clean text extraction for LLM pipelines
+- [node-html-markdown](https://github.com/crosstype/node-html-markdown) — ⚠️ STALE — Fast HTML-to-Markdown converter for Node.js — works in the browser too, handles edge cases well
 
 ### General Dev Tools
 
 - [lerna](https://github.com/lerna/lerna) — Fast, modern build system for managing multi-package JavaScript/TypeScript repositories — the monorepo pioneer
-- [mediabunny](https://github.com/Vanilagy/mediabunny) — Pure TypeScript media toolkit — read, write, and convert video and audio files directly in the browser
-- [HeartGraph](https://github.com/Drakynfly/HeartGraph) — ⚠️ STALE — Generic runtime node graph editor and viewer for Unreal Engine — visual scripting infrastructure
+- [docco-husky](https://github.com/mbrevoort/docco-husky) — ⚠️ STALE — Fork of docco for generating documentation for whole projects — whole-project literate programming docs
+- [nxtensions](https://github.com/nxtensions/nxtensions) — ⚠️ STALE — Nx plugins and extensions expanding the monorepo toolkit beyond the official offerings
+- [docco-husky](https://github.com/maxatwork/docco-husky) — ⚠️ STALE — Max's fork of docco-husky — for generating whole-project documentation in the literate programming style
+- [bem-tools](https://github.com/bem-archive/bem-tools) — 🪦 ARCHIVED — BEM methodology toolkit for working with files and structure — archived, but foundational to BEM tooling
+- [bem-gen-doc](https://github.com/bem-archive/bem-gen-doc) — ⚠️ STALE — Block library documentation generator prototype — early BEM tooling experiment, archived
 
 ---
 
@@ -945,6 +939,7 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 
 - [marked](https://github.com/markedjs/marked) — Fast Markdown parser and compiler — the standard library for rendering Markdown in JavaScript
 - [claude-cookbooks](https://github.com/anthropics/claude-cookbooks) — Anthropic's official collection of Claude usage examples — practical recipes for getting the most out of the API
+- [markdown-oxide](https://github.com/Feel-ix-343/markdown-oxide) — PKM Markdown Language Server — LSP server that brings Obsidian-style linking to any editor
 
 ---
 
@@ -954,6 +949,7 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 
 - [actual](https://github.com/actualbudget/actual) — Local-first personal finance app — your money data stays on your machine, powerful budgeting without subscriptions
 - [monica](https://github.com/monicahq/monica) — ⚠️ STALE — Personal CRM — remember important details about the people in your life, relationships as data
+- [koodo-reader](https://github.com/koodo-reader/koodo-reader) — Modern ebook manager and reader with cross-platform sync — the best open-source reading app
 
 ---
 
@@ -962,10 +958,18 @@ This is not a strict canon or a carefully pruned "best of" list. It is a map of 
 ### Curated Lists & Resources
 
 - [awesome-svelte](https://github.com/CalvinWalzel/awesome-svelte) — ⚠️ STALE — Curated list of awesome Svelte things — now deprecated in favor of sveltesociety.dev
+- [Clone-Wars](https://github.com/GorvGoyl/Clone-Wars) — ⚠️ STALE — 100+ open-source clones of Airbnb, Netflix, Spotify, WhatsApp, and others — learn by reading real implementations
 
 ### Audio & Music
 
 - [VSCO-2-CE](https://github.com/sgossner/VSCO-2-CE) — ⚠️ STALE — Open-source orchestral sample library — free, real recordings of real instruments for music production
+- [ggwave](https://github.com/ggerganov/ggwave) — Tiny data-over-sound library — transmit data through audio waves, works between any devices with mic and speaker
+- [chiptune2.js](https://github.com/deskjet/chiptune2.js) — ⚠️ STALE — JavaScript chiptune player using Web Audio API — play MOD, XM, S3M files in the browser
+
+### Media & Streaming
+
+- [IPTV](https://github.com/Free-TV/IPTV) — M3U playlist of free, legal TV channels — stream television worldwide without a subscription
+- [mediabunny](https://github.com/Vanilagy/mediabunny) — Pure TypeScript media toolkit — read, write, and convert video and audio files directly in the browser
 
 ### Other
 
